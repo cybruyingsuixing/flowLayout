@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+ <com.bway.day_0609_zhouliumoni.MyTitleView
+     android:id="@+id/mytitle"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:title_text="清空"
+     app:btn_left_text="-"
+     app:btn_right_text="+"
+     android:background="@color/colorAccent"
+     >
+ </com.bway.day_0609_zhouliumoni.MyTitleView>
+
+
+ <com.bway.day_0609_zhouliumoni.FlowLayout
+     android:id="@+id/flow"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="first"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#ff5656"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="second"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#fff566"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="third"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#56ff66"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="fourth"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#0099ff"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="fifth"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#ff56ff"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="sixth"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#ff56ff"
+      />
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="seventh"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#ff56ff"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="eighth"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:background="#ff56ff"
+      />
+
+
+
+
+
+
+ </com.bway.day_0609_zhouliumoni.FlowLayout>
+
+
+</LinearLayout>
